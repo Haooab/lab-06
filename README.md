@@ -1,4 +1,4 @@
-62 Participation Exercise
+Lab 6 Participation Exercise
 
 ## Student Details
 
