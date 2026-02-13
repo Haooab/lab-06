@@ -48,4 +48,13 @@ public class City implements Comparable<City>{
         City c= o;
         return this.city.compareTo(c.getCityName());
     }
+    @Override
+    public int hashCode(){
+        return this.city.hashCode();
+    }
+    @Override
+    public boolean equals(Object o){
+      City c = (City)o;
+        return this.city.hashCode() == o.hashCode();
+    }
 }
